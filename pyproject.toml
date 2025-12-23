@@ -1,0 +1,19 @@
+[project]
+name = "bedrock-agentcore-example"
+version = "0.1.0"
+description = "Code mẫu về AgentCore"
+authors = [
+  { name = "Tuan Nguyen", email = "nguyenanhtuan19122002@gmail.com" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+  "bedrock-agentcore==1.1.1",
+  "mcp==1.25.0"
+]
+
+[project.optional-dependencies]
+strands_agents = [
+  "strands-agents==1.20.0",
+  "strands-agents-tools==0.2.18"
+]

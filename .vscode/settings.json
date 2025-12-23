@@ -1,0 +1,14 @@
+{
+  // Thiết lập chung cho Python
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
+  // Nếu dùng formatter (ví dụ Black), có thể thêm:
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "88"],
+
+  // Tùy chọn khác (nếu muốn auto format khi save)
+  "editor.formatOnSave": true
+}

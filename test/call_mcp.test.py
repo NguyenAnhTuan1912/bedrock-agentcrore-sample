@@ -5,6 +5,9 @@ from mcp.client.streamable_http import streamable_http_client
 
 
 async def main():
+    """Khi gọi xong hàm này thì kết quả trả về sẽ là thông tin của
+    các tools đang có trong MCP.
+    """
     mcp_url = "http://localhost:8000/mcp"
 
     async with streamable_http_client(mcp_url) as (

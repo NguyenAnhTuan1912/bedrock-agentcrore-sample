@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nguyenanhtuan1912-bedrock-agentcrore-sample-badge.png)](https://mseep.ai/app/nguyenanhtuan1912-bedrock-agentcrore-sample)
+
 # Bedrock AgentCore Code Sample
 
 Đây là repo code mẫu đơn giản cho AgentCore. Nên trong bài này thì mình sẽ chỉ dùng 1 Agent duy nhất.
